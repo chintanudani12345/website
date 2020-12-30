@@ -2121,7 +2121,7 @@ border-radius: 10px;
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
   .about_me {
-    padding-bottom: 100px;
+  
   }
 }
 
@@ -2144,6 +2144,7 @@ border-radius: 10px;
 }
 
 /* line 25, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+
 .about_me .about_e_details h3 {
   font-size: 50px;
   font-weight: 700;
@@ -2166,14 +2167,10 @@ border-radius: 10px;
 
 /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .about_me .about_img .color_pattern {
-  position: absolute;
+  position: relative;
   right: -80px;
-  top: -123px;
+  top: -10px;
   z-index: -1;
-}
-.about_me .about_img .color_pattern img{
-  height: 300px;
-  width: 500px;
 }
 
 
